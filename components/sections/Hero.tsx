@@ -54,10 +54,10 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 mt-10 text-center">
-        <PhaseIndicator currentPhase={4} totalPhases={10} />
+        <PhaseIndicator currentPhase={5} totalPhases={10} />
         <p className="md:text-md text-xs text-gray-400 mb-12">ENDS IN</p>
 
-        <CountdownTimer targetDate={new Date("2025-06-24")} />
+        <CountdownTimer targetDate={new Date("2025-07-24")} />
 
         {/* Stats Bar */}
         <div className="w-full mt-24 max-w-4xl mx-auto backdrop-blur-xl bg-black/40 rounded-3xl border border-[#F0B90B]/20 overflow-hidden">
